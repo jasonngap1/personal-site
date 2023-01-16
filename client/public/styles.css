@@ -1,3 +1,23 @@
 body {
     font-family: 'Raleway', sans-serif !important;
 }
+
+/* about component */
+.about {
+    width: auto;
+    background-color: #251749;
+}
+
+.about-intro {
+    width: 50%;
+    float: left;    
+}
+
+.about-bg{
+    width: 50%;
+    float: right;
+}
+
+.about-end {
+    clear: both;
+}
