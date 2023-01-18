@@ -1,0 +1,55 @@
+/* about component */
+:local(.about) {
+    width: auto;
+    height: 250px;
+    background-color: #251749;
+}
+
+:local(.aboutIntro) {
+    width: 20%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    overflow: hidden;    
+}
+
+:local(.aboutIntroDp) {
+    width: auto;
+    height: auto;
+    border: 8px solid;
+    border-radius: 50%;
+    border-color: #6B728E;
+}
+
+:local(.aboutText) {
+    width: 30%;
+    height: 100%;
+    padding: 50px;
+    float: left;
+    overflow: hidden;
+    color: white;
+    text-align: center;    
+}
+
+:local(.aboutInnerText) {
+    text-align: left;
+}
+
+:local(.aboutBg){
+    width: 50%;
+    height: 100%;
+    float: right;
+    overflow: hidden;
+    opacity: 30%;
+}
+
+:local(.aboutEnd) {
+    clear: both;
+}
+
+:local(.aboutPic) {
+    width: 100%;
+    height: auto;
+}
