@@ -1,0 +1,35 @@
+/* intro component */
+:local(.main) {
+    background-color: #263159;
+    color: white;
+    padding: 2rem;
+}
+
+:local(.title) {
+    text-decoration: underline;
+    padding-left: 2rem;
+}
+
+:local(.text) {
+    padding-left: 2rem;
+    padding-right: 2rem;  
+}
+
+:local(.introPicCon){
+    height: 500px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+:local(.introPic) {
+    height: 100%;
+}
+
+:local(.innerText) {
+    padding: 2rem;
+}
+
+li{
+    margin: 3rem 0;
+  }
