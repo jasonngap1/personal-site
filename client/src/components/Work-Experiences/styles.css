@@ -1,0 +1,11 @@
+/* Work Experiences component */
+:local(.main) {
+    background-color: #495579;
+    color: white;
+    padding: 2rem;
+}
+
+:local(.title) {
+    text-decoration: underline;
+    padding-left: 2rem;
+}

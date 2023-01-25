@@ -7,9 +7,6 @@ import styles from './styles.css'
 function Intro() {
   return (
     <Container fluid className={styles.main}>
-      {/* <div className={styles.introPicCon}>
-        <img src="/images/intro-pic.jpg" alt="dp-pic" className={styles.introPic}></img>
-      </div> */}
       <Row className={styles.title}>
         About Me
       </Row>
