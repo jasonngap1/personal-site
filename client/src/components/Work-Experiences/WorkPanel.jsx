@@ -5,9 +5,9 @@ import styles from './styles.css'
 
 function WorkPanel(props) {
 	return (
-		<Row>
+		<Row className={styles.companyCon} >
 			<Col xs={2}>
-				<img src={`/images/work-exp/${props.image}`} alt="work-experience.png"/>
+				<img src={`/images/work-exp/${props.image}.png`} alt="work-experience.png" className={styles.companyPic} />
 			</Col>
 			<Col xs={4}>
 				<p>{props.title}</p>
@@ -16,7 +16,7 @@ function WorkPanel(props) {
 			</Col>
 			<Col xs={6}>
 				<ul>
-
+					{props.list.map((item, i) => <li key={i} className={styles.companyDetails}>{item}</li>)}
 				</ul>
 			</Col>
 		</Row>

@@ -5,7 +5,23 @@
     padding: 2rem;
 }
 
+:local(.companyCon) {
+    display: flex;
+    align-items: center;    
+}
+
 :local(.title) {
     text-decoration: underline;
     padding-left: 2rem;
+}
+
+:local(.companyPic) {
+    width: 100%;
+    clip-path: circle();
+    border: 8px solid;
+    border-color: black;
+}
+
+:local(.companyDetails) {
+    margin: 0px;
 }
