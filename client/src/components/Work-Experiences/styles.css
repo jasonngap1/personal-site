@@ -15,13 +15,23 @@
     padding-left: 2rem;
 }
 
+:local(.companyPicCon) {
+    padding: 2.5rem !important;
+}
+
 :local(.companyPic) {
-    width: 100%;
-    clip-path: circle();
     border: 8px solid;
     border-color: black;
 }
 
 :local(.companyDetails) {
+    margin: 0px;
+}
+
+:local(.companyIntro) {
+    margin: 0px;
+}
+
+:local(.companyUl) {
     margin: 0px;
 }
