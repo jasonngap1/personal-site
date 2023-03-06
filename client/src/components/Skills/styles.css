@@ -1,0 +1,11 @@
+/* Skills attained component */
+:local(.main) {
+    background-color: #FFFBEB;
+    color: black;
+    padding: 2rem;
+}
+
+:local(.title) {
+    text-decoration: underline;
+    padding-left: 2rem;
+}

@@ -4,6 +4,7 @@ import Footer from "./Footer/index";
 import About from "./About/index";
 import Intro from "./Intro/index";
 import WorkExperiences from "./Work-Experiences/index";
+import SkillsAttained from "./Skills/index";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <About />
             <Intro />
             <WorkExperiences />
+            <SkillsAttained />
             <Footer/>
         </div>
     );
